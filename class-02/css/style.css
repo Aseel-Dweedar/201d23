@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 body {
     background-image: url('https://image.freepik.com/free-vector/copy-space-spring-background_52683-55304.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
     width: 77%;
     margin: auto;
@@ -16,9 +19,12 @@ header {
 header h1 {
     width: 40%;
     font-family: 'New Tegomin', serif;
-    color: #865858;
     font-size: 60px;
     padding-left: 30px;
+    display: inline;
+    padding-top: 10px;
+    color: #2b2e4a;
+    width: 40%;
 }
 
 header nav {
@@ -29,11 +35,9 @@ header nav {
     padding: 10px;
 }
 
-body header h1 {
-    display: inline;
-    padding-top: 10px;
+main {
+    background-color: rgba(228, 211, 207, 0.6);
     color: #2b2e4a;
-    width: 40%;
 }
 
 body header nav a {
@@ -42,12 +46,7 @@ body header nav a {
     color: #2b2e4a;
 }
 
-main {
-    background-color: rgba(228, 211, 207, 0.6);
-    color: #2b2e4a;
-}
-
-main section {
+.intro {
     width: 45%;
     float: right;
     margin-right: 60px;
@@ -55,19 +54,74 @@ main section {
     text-align: center;
 }
 
-main img {
+.mainImg {
     width: 45%;
     display: inline;
     padding: 20px;
 }
 
-main section p {
+.mainP {
     margin-bottom: 30px;
     font-size: 20px;
 }
 
-body main ul li {
+.soci {
     list-style: none;
     display: inline;
     padding: 10px;
+}
+
+.topCounter {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.topTen {
+    text-align: center;
+    height: 70px;
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #2b2e4a;
+    background-color: rgba(150, 187, 124, 0.3);
+}
+
+.list {
+    width: 48%;
+    display: inline-block;
+}
+
+.mome {
+    color: #2b2e4a;
+    border: 2px solid rgba(150, 187, 124, 0.3);
+    width: 85%;
+    margin: 5px;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.eduEx {
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.text {
+    height: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #2b2e4a;
+    background-color: rgba(150, 187, 124, 0.3)
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    list-style-type: circle;
 }
