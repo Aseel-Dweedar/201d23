@@ -18,3 +18,12 @@ and other operations on it.
 * style page with css.
 * Add javascript requirements (6th and 7th questions yes or no questions), and other operations on it.
 * Edit read me file with very day working.
+<br>
+<hr> 
+
+## class-04 (14/4/2021)
+
+* I worked with Maha as a navigator. 
+* rearrange the file by adding reset.css and remove another extra read me file.
+* adding functions to the js code for all questions.  
+* modifying the score calculation cade for all. 
